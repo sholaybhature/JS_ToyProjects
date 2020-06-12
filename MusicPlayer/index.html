@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play music</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <p>Guroor</p>
+            <span class="sound"></span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <p class="volume">Volume: <span id="demo"></span></p>
+        </div>
+        
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <p>Tu Hoti Toh</p>
+            <span class="sound"></span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <p class="volume"> Volume: <span id="demo"></span></p>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <p>Ghar</p>
+            <span class="sound"></span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <p class="volume">Volume: <span id="demo"></span></p>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <p>Kho Gaye</p>
+            <span class="sound"></span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <p class="volume">Volume: <span id="demo"></span></p>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <p>Saasein</p>
+            <span class="sound"></span>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            <p class="volume">Volume: <span id="demo"></span></p>
+        </div>
+    </div>
+    <audio data-key="65" src="1.mp3"></audio>
+    <audio data-key="83" src="2.mp3"></audio>
+    <audio data-key="68" src="3.mp3"></audio>
+    <audio data-key="70" src="4.mp3"></audio>
+    <audio data-key="71" src="5.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
