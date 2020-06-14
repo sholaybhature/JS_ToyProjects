@@ -1,3 +1,3 @@
 **A simple Password Generator**
 
-![image](https://imgur.com/a/VQBVd8d)
+![image](https://github.com/reedkihaddi/JS_ToyProjects/blob/master/Password%20Generator/sc.png)
