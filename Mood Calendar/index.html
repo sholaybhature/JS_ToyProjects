@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mood</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="heading">
+		<h1>2020 Mood Calendar</h1>
+		<h4>Color each day depending on your mood</h4>
+		<p>Select mood: </p>
+		</div>
+		<div class="moods_container">
+			<button class="mood mood_1" id="mood_1">
+			<i class="far fa-laugh"></i>
+			</button>
+			<button class="mood mood_2" id="mood_2">
+				<i class="far fa-smile"></i>
+			</button>
+			<button class="mood mood_3" id="mood_3">
+				<i class="far fa-meh"></i>
+			</button>
+			<button class="mood mood_4" id="mood_4">
+				<i class="far fa-frown"></i>
+			</button>
+			<button class="mood mood_5" id="mood_5">
+				<i class="far fa-sad-tear"></i>
+			</button>
+		</div>
+		<p class="heading">Click on the circles: </p>
+	</div>
+	<div class="btn">
+	<button class="random" onclick="return getRandomColor()">Random</button>
+	<button class="random" onclick="return ClearAll()">Clear</button>
+	</div>
+	<div id="calendar" class="calendar"></div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
